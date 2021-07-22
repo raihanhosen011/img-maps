@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image maps</title>
+  </head>
+  <body>
+    <h2>Image Maps</h2>
+
+    <div class="image_wrapper">
+      <img
+        src="https://www.w3schools.com/html/workplace.jpg"
+        alt="Workplace"
+        usemap="#workmap"
+        width="400"
+        height="379"
+      />
+    </div>
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" target="_blank"
+      href="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        target="_blank"
+        href="https://images.unsplash.com/photo-1528795259021-d8c86e14354c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vYmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+      />
+      <area
+        shape="circle"
+        coords="337,300,44"
+        target="_blank"
+        alt="Cup of coffee"
+        href="https://media.istockphoto.com/photos/close-up-of-steaming-cup-of-coffee-or-tea-on-vintage-table-early-on-picture-id1137365972?k=6&m=1137365972&s=612x612&w=0&h=m61gLuI0gAOh0IRbBxYzfyWgRbXUUTuZHf5sisVArK4="
+      />
+    </map>
+  </body>
+</html>
